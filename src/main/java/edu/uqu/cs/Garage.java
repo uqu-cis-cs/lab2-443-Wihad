@@ -40,7 +40,7 @@ public static int countCars = 0;
      * Use loop to create them as follows:
      * Syntax:
      * public className (){
-     *     for(int i=0; i<arrayName.length; i++){
+     * 	   for(int i=0; i<arrayName.length; i++){
      *         arrayName[i]= new arrayClassName();
      *     }
      *}
@@ -150,8 +150,8 @@ public void addCar(String model) {
  public void listCars() {
         for (int i = 0; i < countCars; i++) {
             System.out.println("Car " + (i+1) + ": " + cars[i].getModel());
-        }
 }
+ }
 
 
-
+}

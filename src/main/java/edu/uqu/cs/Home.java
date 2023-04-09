@@ -10,13 +10,13 @@ package edu.uqu.cs;
 import java.util.Scanner;
 
 public class Home{
- public static void main(String [] args){
+	public static void main(String [] args){
 
-  // Create an object of type Garage 
+		// Create an object of type Garage 
                 //HERE
 Garage myGarage = new Garage();
 
-         // Add "Toyota Corolla Cross" in the garage. Hint: use method addCar () of class Garage
+	        // Add "Toyota Corolla Cross" in the garage. Hint: use method addCar () of class Garage
                 //HERE
       myGarage.addCar("Toyota Corolla Cross");
                 //List all the cars in the garage. Hint: use method listCars () of class Garage
@@ -26,7 +26,7 @@ Garage myGarage = new Garage();
                 // Place "Ford Fusion" in the garage. Hint: use method addCar () of class Garage
                 //HERE
    myGarage.addCar("Ford Fusion");
-          // List all the cars in the garage once again. Hint: use method listCars () of class Garage
+ 	        // List all the cars in the garage once again. Hint: use method listCars () of class Garage
                 //HERE
  System.out.println("All cars in the garage are:");
         myGarage.listCars();
@@ -39,6 +39,6 @@ Garage myGarage = new Garage();
                //HERE
    System.out.println("\nAll cars in the garage are:");
         myGarage.listCars();
-         }
+}
 
 }
